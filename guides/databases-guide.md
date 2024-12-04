@@ -213,7 +213,7 @@ coding JavaScript (which you have!) and using JSON objects. NoSQL databases like
 An example of NoSQL database that uses document storage (e.g. MongoDB) might look something like this:
 
 ```txt
-Joey's Tree Database
+ITP's Tree Database
 +----------------------------------------+
 | New York                               |
 | +------------------------------------+ |  
@@ -286,7 +286,7 @@ Some common SQL databases you will encounter in your lifetimes include:
 An example of SQL database that uses tabular storage (e.g. PostGreSQL) might look something like this:
 
 ```txt
-Joey's Tree Database
+ITP's Tree Database
 +----------------------------------------+
 | New York                               |
 | +------------------------------------+ |  
@@ -312,6 +312,6 @@ _id,address, species
 A query to such a NoSQL database might look something like this:
 
 ```shell
-> USE 'joeys-tree-database' SELECT * FROM 'newyork' ORDER BY 'address'
+> USE 'itps-tree-database' SELECT * FROM 'newyork' ORDER BY 'address'
 ```
 
