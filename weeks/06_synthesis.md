@@ -1,27 +1,30 @@
 # Week 06: Synthesis
 
 ## Slides
-* ↳ [Link to Week 6 Slides: Synthesis](#)
 
+↳ [Link to Week 6 Slides: Synthesis](#)
 
 ## About
 
-This week, we will be putting all of the pieces together: `design → front end development → back end development → databases → deployment`.
+This week, we will be putting all of the pieces together:
+`design → front end development → back end development → databases → deployment`.
 
 ## Guides
+
 * [Databases Workbook](https://github.com/muji786/spring2024-dynamic-web-development/databases-workbook)
 * [MongoDB Atlas Guide](../guides/database-services-guide.md)
 * [Databases Guide](../guides/databases-guide.md)
 * [MongoDB Guide](../guides/mongodb-guide.md)
 * [Full Stack Checklist](../guides/full-stack-checklist.md) - Checklist of everything we've covered in class
-* [Project Development Checklist](../guides/project-development-checklist.md) - Checklist for all of the things to make sure you've done for the final
+* [Project Development Checklist](../guides/project-development-checklist.md) - Checklist for all of the things to make
+  sure you've done for the final
 * [Express Simple Auth Guide](../guides/express-basic-auth-guide.md)
 
 ***
 ***
 ***
 
-## STUDIO: 
+## STUDIO:
 
 ### Express Simple Auth
 
@@ -31,7 +34,7 @@ This week, we will be putting all of the pieces together: `design → front end 
 ***
 ***
 
-## Final Project: 
+## Final Project:
 
 * ↳ [Link to Assignment](../assignments/06_final-project.md)
 

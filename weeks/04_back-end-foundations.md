@@ -3,68 +3,75 @@
 * [Accessibility Talk](https://reactnewyork.com/#videos)
 
 ## SLIDES
-* ↳ [Link to Week 4 Slides: Back end Foundations](#)
+
+↳ [Link to Week 4 Slides: Back end Foundations](#)
 
 ## ABOUT
 
-This week we will be focusing our attention on server-side programming, otherwise known as the "back-end" of web applications.
+This week we will be focusing our attention on server-side programming, otherwise known as the "back-end" of web
+applications.
 
-We will be learning about server-side programming using JavaScript running in Node.js. We we learn how to run Node scripts and make our own API.
+We will be learning about server-side programming using JavaScript running in Node.js. We we learn how to run Node
+scripts and make our own API.
 
-Emphasis this week will be on understanding when it is necessary to use server-side programming, and differentiating between server-side and client-side code.
-
+Emphasis this week will be on understanding when it is necessary to use server-side programming, and differentiating
+between server-side and client-side code.
 
 ### OUTCOMES & GOALS
 
 In this class we will be:
+
 * Learning to program a server with Node.js
-* Writing server-side JavaScript to create our own REST APIs that allow us to communicate between our client and server to perform CRUD operations.
+* Writing server-side JavaScript to create our own REST APIs that allow us to communicate between our client and server
+  to perform CRUD operations.
 
 Students will walk away with a deeper understanding of:
+
 * The terminal / command-line
 * NPM, Node.js and Express.js
 * REST API structure
 
 
 * **Node.js**
-  * What is back end/server side programming?
-  * What is Node.js? What's the motivation behind its creation?
-  * How do you install Node.js?
-  * What are the Node.js core libraries? How do you use them?
-  * What capabilities does Node have that browser JS does not? What about vice versa?
-  * What is Node.js? How does it relate to Express.js?
+    * What is back end/server side programming?
+    * What is Node.js? What's the motivation behind its creation?
+    * How do you install Node.js?
+    * What are the Node.js core libraries? How do you use them?
+    * What capabilities does Node have that browser JS does not? What about vice versa?
+    * What is Node.js? How does it relate to Express.js?
 * **npm**
-  * What is `npm`? What is the difference between `npm`, the command line tool, and "npmjs.com"?
-  * How do you create an npm project? How do you install and keep track of dependencies?
-  * How do you use "npmjs.org"?
-  * How do you use `npm` with `git`?
-  * What is **npm**, what is a `package.json`, how they are related, and why they are important?
-  * How to install node.js dependencies using npm.
+    * What is `npm`? What is the difference between `npm`, the command line tool, and "npmjs.com"?
+    * How do you create an npm project? How do you install and keep track of dependencies?
+    * How do you use "npmjs.org"?
+    * How do you use `npm` with `git`?
+    * What is **npm**, what is a `package.json`, how they are related, and why they are important?
+    * How to install node.js dependencies using npm.
 * **APIs**
-  * What is an API?
-  * What is REST?
-  * What is CORS?
+    * What is an API?
+    * What is REST?
+    * What is CORS?
 * **Express**
-  * What is a static web server? How do you create one with Express?
-  * How do you Express to return JSON?
-  * Why would you use Express to make API requests, rather than making the requests client-side?
+    * What is a static web server? How do you create one with Express?
+    * How do you Express to return JSON?
+    * Why would you use Express to make API requests, rather than making the requests client-side?
 * **Data Persistence**
-  * What are ways that you can persist data?
-  * Can you persist data without a database? When do you need to use a database?
+    * What are ways that you can persist data?
+    * Can you persist data without a database? When do you need to use a database?
 * **Platform as a service**:
-  * What is the difference between server-side code and the server machine? How is this related to a platform-as-a-service (PaaS)?
-  * Can you explain the difference between a server (code), server (machine), and server (the service)? 
+    * What is the difference between server-side code and the server machine? How is this related to a
+      platform-as-a-service (PaaS)?
+    * Can you explain the difference between a server (code), server (machine), and server (the service)?
 * **Client vs Server**:
-  * Can you clearly delineate between your server-side code and your client-side code? Explain how they are different.
-  * What is the "back-end" / server-side programming?
-  * What is a server side programming language? How does it differ from client-side programming in the browser?
-  * What does it mean to serve *static* files using a web server? 
-  * How do you use dynamic data in your website?
-
+    * Can you clearly delineate between your server-side code and your client-side code? Explain how they are different.
+    * What is the "back-end" / server-side programming?
+    * What is a server side programming language? How does it differ from client-side programming in the browser?
+    * What does it mean to serve *static* files using a web server?
+    * How do you use dynamic data in your website?
 
 ## WHAT WE ARE NOT COVERING
 
 Topics we are not covering, but are of importance:
+
 * TypeScript
 * Dependency management, transpiling and bundling (Webpack, Parcel, Rollup, Browserify, Babel)
 
@@ -77,7 +84,6 @@ Topics we are not covering, but are of importance:
 
 * ↳ please see [Developer Setup Guide - Quickstart](../guides/developer-setup-guide.md#quickstart)
 
-  
 ## TOPICS
 
 ### THE CLIENT VS. THE SERVER
@@ -89,6 +95,7 @@ Topics we are not covering, but are of importance:
 * [Backend Foundations Guide - Server-side JavaScript with Node.js - The Basics](../guides/backend-foundations-guide.md#server-side-javascript-with-nodejs-the-basics)
 
 ### NPM, THE NODE PACKAGE MANAGER
+
 * [Backend Foundations Guide - NPM](../guides/backend-foundations-guide.md#nodejs--the-node-package-manager-npm)
 
 ### FRIENDLY WEB SERVERS WITH EXPRESS.JS
@@ -108,16 +115,18 @@ Topics we are not covering, but are of importance:
 
 * [Backend Foundations Guide - client-side interfacing](../guides/backend-foundations-guide.md#client-side-interfacing)
 
-
 ***
 ***
 ***
 
 ## STUDIO: BACKEND FOUNDATIONS WORKBOOK
 
-Learn by doing with the [Back-End Foundations Workbook](../guides/backend-foundations-guide.md). Here you will encounter a set of guided challenges that will introduce you to the basic building blocks necessary to build a basic web server and API. 
+Learn by doing with the [Back-End Foundations Workbook](../guides/backend-foundations-guide.md). Here you will encounter
+a set of guided challenges that will introduce you to the basic building blocks necessary to build a basic web server
+and API.
 
-* ↳ [Back-End Foundations Workbook](https://github.com/muji786/spring2024-dynamic-web-development/back-end-foundations-workbook)
+*
+↳ [Back-End Foundations Workbook](https://github.com/muji786/spring2024-dynamic-web-development/back-end-foundations-workbook)
 
 ***
 ***

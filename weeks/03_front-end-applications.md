@@ -1,91 +1,98 @@
 # WEEK 3: FRONT-END APPLICATIONS
 
 ## SLIDES
-* ↳ [Link to Week 3 Slides: Front end Applications](#)
+
+↳ [Link to Week 3 Slides: Front end Applications](#)
 
 ## ABOUT
-This week, we will be exploring JavaScript as it relates to adding interactivity to our web applications. JavaScript can be and is used to, among many things, update the content of DOM elements, to dynamically apply CSS styles that allow for better user experience and interaction design, and to send and retrieve data from external APIs that can affect what information is shown on the page. 
 
-We will take a project based approach to highlight the major features of modern JavaScript (as of 2020) and how you can use JavaScript to do things like update and manipulate the DOM, listen for events (e.g. did the user click? did the user scroll? is the page loaded?), and make API requests to get and send data from remote servers. 
+This week, we will be exploring JavaScript as it relates to adding interactivity to our web applications. JavaScript can
+be and is used to, among many things, update the content of DOM elements, to dynamically apply CSS styles that allow for
+better user experience and interaction design, and to send and retrieve data from external APIs that can affect what
+information is shown on the page.
+
+We will take a project based approach to highlight the major features of modern JavaScript (as of 2020) and how you can
+use JavaScript to do things like update and manipulate the DOM, listen for events (e.g. did the user click? did the user
+scroll? is the page loaded?), and make API requests to get and send data from remote servers.
 
 Emphasis this week will be on writing clean and organized JavaScript code.
 
-This introduction to JavaScript foundations assumes basic working knowledge of JavaScript, i.e.:  
+This introduction to JavaScript foundations assumes basic working knowledge of JavaScript, i.e.:
 
-* the existence of control structures: 
-  * looping (for loops, while loops)
-  * conditional statements (e.g. if, else if, else)
+* the existence of control structures:
+    * looping (for loops, while loops)
+    * conditional statements (e.g. if, else if, else)
 * the existence of data structures:
-  * JSON
-  * arrays
+    * JSON
+    * arrays
 * basic asynchronous JavaScript:
-  * callback functions
+    * callback functions
 
 - [WEEK 3: FRONT-END APPLICATIONS](#week-3-front-end-applications)
-  - [SLIDES](#slides)
-  - [ABOUT](#about)
-  - [OUTCOMES & GOALS](#outcomes--goals)
-  - [PACING / DURATION](#pacing--duration)
-  - [MATERIALS NEEDED](#materials-needed)
-  - [WHAT WE ARE NOT COVERING](#what-we-are-not-covering)
-  - [TOPICS](#topics)
-    - [JAVASCRIPT: FOUNDATIONS](#javascript-foundations)
-    - [JAVASCRIPT: THE DOM & EVENTS](#javascript-the-dom--events)
-    - [JAVASCRIPT: GETTING DATA FROM APIS](#javascript-getting-data-from-apis)
-    - [JAVASCRIPT: FORM DATA & SENDING DATA TO APIS](#javascript-form-data--sending-data-to-apis)
-    - [JAVASCRIPT: FUNCTIONAL PROGRAMMING, UI COMPONENTS, & REACTIVE USER INTERFACES](#javascript-functional-programming-ui-components--reactive-user-interfaces)
-    - [JAVASCRIPT: THE BROWSER PLATFORM](#javascript-the-browser-platform)
-  - [STUDIO: FRONT-END APPLICATIONS WORKBOOK](#studio-front-end-applications-workbook)
-  - [ASSIGNMENT 3: INTERACTIVE FRONT-END APPLICATION](#assignment-3-interactive-front-end-application)
-  - [ADDITIONAL NOTES](#additional-notes)
-      - [Removing Elements](#removing-elements)
+    - [SLIDES](#slides)
+    - [ABOUT](#about)
+    - [OUTCOMES & GOALS](#outcomes--goals)
+    - [PACING / DURATION](#pacing--duration)
+    - [MATERIALS NEEDED](#materials-needed)
+    - [WHAT WE ARE NOT COVERING](#what-we-are-not-covering)
+    - [TOPICS](#topics)
+        - [JAVASCRIPT: FOUNDATIONS](#javascript-foundations)
+        - [JAVASCRIPT: THE DOM & EVENTS](#javascript-the-dom--events)
+        - [JAVASCRIPT: GETTING DATA FROM APIS](#javascript-getting-data-from-apis)
+        - [JAVASCRIPT: FORM DATA & SENDING DATA TO APIS](#javascript-form-data--sending-data-to-apis)
+        - [JAVASCRIPT: FUNCTIONAL PROGRAMMING, UI COMPONENTS, & REACTIVE USER INTERFACES](#javascript-functional-programming-ui-components--reactive-user-interfaces)
+        - [JAVASCRIPT: THE BROWSER PLATFORM](#javascript-the-browser-platform)
+    - [STUDIO: FRONT-END APPLICATIONS WORKBOOK](#studio-front-end-applications-workbook)
+    - [ASSIGNMENT 3: INTERACTIVE FRONT-END APPLICATION](#assignment-3-interactive-front-end-application)
+    - [ADDITIONAL NOTES](#additional-notes)
+        - [Removing Elements](#removing-elements)
 
 ## OUTCOMES & GOALS
 
-You should be able to speak to the ways that JavaScript related to the following topics: 
+You should be able to speak to the ways that JavaScript related to the following topics:
 
 * **ES2015 Features**
-  * Template strings
-  * Array functions
-  * Promises, async/await
-  * Arrow functions
+    * Template strings
+    * Array functions
+    * Promises, async/await
+    * Arrow functions
 * **DOM Manipulation**
-  * What does it mean for a website to be loaded?
-  * How do you include JS files in HTML?
-  * How do you **add** new DOM elements?
-  * How do you **remove** DOM elements?
-  * How do you **change** DOM elements?
-  * How do you **select** DOM elements?
+    * What does it mean for a website to be loaded?
+    * How do you include JS files in HTML?
+    * How do you **add** new DOM elements?
+    * How do you **remove** DOM elements?
+    * How do you **change** DOM elements?
+    * How do you **select** DOM elements?
 * **Event Handling**
-  * What is an event handler?
-  * What types of events can elements listen for?
-  * What the default behavior for certain events on certain elements?
-  * How do events propagate to parent elements?
-  * How do you create an event listener? How do you remove one?
-  * What is the scope within a JS event handler? What is `this`?
+    * What is an event handler?
+    * What types of events can elements listen for?
+    * What the default behavior for certain events on certain elements?
+    * How do events propagate to parent elements?
+    * How do you create an event listener? How do you remove one?
+    * What is the scope within a JS event handler? What is `this`?
 * **API Requests**
-  * What is an API?
-  * How do you find an API?
-  * How do you read API documentation?
-  * How do you use an API key?
-  * How do you make an API request in JS?
-  * What is AJAX?
-  * What is the fetch API?
-  * What is a promise?
+    * What is an API?
+    * How do you find an API?
+    * How do you read API documentation?
+    * How do you use an API key?
+    * How do you make an API request in JS?
+    * What is AJAX?
+    * What is the fetch API?
+    * What is a promise?
 * **Reactive UI**
-  * What is a UI component?
-  * What is functional programming? 
-  * What is a template string?
-  * How do you separate your data from your "presentation"?
+    * What is a UI component?
+    * What is functional programming?
+    * What is a template string?
+    * How do you separate your data from your "presentation"?
 * **Organizing your JavaScript**
-  * How do you write clean code?
-  * How do you know when you need to refactor?
+    * How do you write clean code?
+    * How do you know when you need to refactor?
 
 ## PACING / DURATION
 
 * :10 Quick, random selection of Assignment highlights
 * :10 Review of last week's material on CSS layouts
-* : 
+* :
 
 ## MATERIALS NEEDED
 
@@ -94,52 +101,66 @@ You should be able to speak to the ways that JavaScript related to the following
 ## WHAT WE ARE NOT COVERING
 
 Topics we are not covering, but are of importance:
+
 * JavaScript Frameworks (React, Vue, Angular, Next)
 * Dependency management, transpiling and bundling (Webpack, Parcel, Rollup, Browserify, Babel)
 
 ## TOPICS
 
 ### JAVASCRIPT: FOUNDATIONS
+
 > Essential JavaScript for all occasions
 
 * ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-foundations)
-  * JavaScript Foundations Review
-  * ES6 Syntax, arrow functions, Template Strings
-  * Array Functions: e.g. `.forEach()`, `.map()`, `.filter()`, `.findIndex()`
-  * Object Functions: e.g. `Object.keys()`, `Object.values()` 
-
+    * JavaScript Foundations Review
+    * ES6 Syntax, arrow functions, Template Strings
+    * Array Functions: e.g. `.forEach()`, `.map()`, `.filter()`, `.findIndex()`
+    * Object Functions: e.g. `Object.keys()`, `Object.values()`
 
 ### JAVASCRIPT: THE DOM & EVENTS
-> "All we do is talk about manipulating the DOM, but what about checking in and caring for the DOM?" - Kara Gates via Twitter
+
+> "All we do is talk about manipulating the DOM, but what about checking in and caring for the DOM?" - Kara Gates via
+> Twitter
 
 * ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-and-the-dom)
-  * JavaScript and the DOM
-  * JavaScript Events and the DOM 
+    * JavaScript and the DOM
+    * JavaScript Events and the DOM
 
 ### JAVASCRIPT: GETTING DATA FROM APIS
-> API: "It’s like the connectors on the back of your TV. They let you plug in a device from another manufacturer (DVD player, games console, set-top box) and both the TV and the device know what to do next. The connectors are the interface that lets one machine talk to another." - [Sideways Dictionary](https://sidewaysdictionary.com/#/term/api)
 
-* ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors)
-  * Asynchronous Javascript: Callbacks, Promises, and Async/Await
-  * Retrieving data from APIs: Networking, AJAX, and CORs
+> API: "It’s like the connectors on the back of your TV. They let you plug in a device from another manufacturer (DVD
+> player, games console, set-top box) and both the TV and the device know what to do next. The connectors are the
+> interface that lets one machine talk to another." - [Sideways Dictionary](https://sidewaysdictionary.com/#/term/api)
+
+*
+↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors)
+    * Asynchronous Javascript: Callbacks, Promises, and Async/Await
+    * Retrieving data from APIs: Networking, AJAX, and CORs
 
 ### JAVASCRIPT: FORM DATA & SENDING DATA TO APIS
-> "API: It's like a waiter at a restaurant. The waiter takes a guests' food order, then delivers to the food order to the kitchen staff. The kitchen staff then makes the food, hands the food to the waiter, and then the waiter delivers the correct food order back to the guest." - [Sideways Dictionary](https://sidewaysdictionary.com/#/term/api)
 
-* ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors)
-  * Sending data to APIs: POST, PUT, DELETE
+> "API: It's like a waiter at a restaurant. The waiter takes a guests' food order, then delivers to the food order to
+> the kitchen staff. The kitchen staff then makes the food, hands the food to the waiter, and then the waiter delivers the
+> correct food order back to the guest." - [Sideways Dictionary](https://sidewaysdictionary.com/#/term/api)
+
+*
+↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors)
+    * Sending data to APIs: POST, PUT, DELETE
 
 ### JAVASCRIPT: FUNCTIONAL PROGRAMMING, UI COMPONENTS, & REACTIVE USER INTERFACES
-> "No JavaScript frameworks were created during the writing of this article." - Jose Aguinaga in *[How it feels to learn JavaScript in 2016]((https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f))*
+
+> "No JavaScript frameworks were created during the writing of this article." - Jose Aguinaga in
+*[How it feels to learn JavaScript in 2016]((https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f))*
 
 * ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md)
-  * Reactive UIs, Refactoring, and Structuring
+    * Reactive UIs, Refactoring, and Structuring
 
 ### JAVASCRIPT: THE BROWSER PLATFORM
+
 > "The Browser is a treasure trove of goodies."
 
 * ↳ [JavaScript Frontend Guide](../guides/javascript-frontend-guide.md#the-web-platform)
-  * The Web Platform
+    * The Web Platform
 
 ***
 ***
@@ -147,9 +168,13 @@ Topics we are not covering, but are of importance:
 
 ## STUDIO: FRONT-END APPLICATIONS WORKBOOK
 
-Learn by doing with the [Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook). Here you will encounter a set of guided challenges that will introduce you to a specific process of building an interactive front-end web application that interacts with a 3rd party API to generate a dynamic clientside views.
+Learn by doing with
+the [Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook).
+Here you will encounter a set of guided challenges that will introduce you to a specific process of building an
+interactive front-end web application that interacts with a 3rd party API to generate a dynamic clientside views.
 
-* ↳ [Link to Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook)
+*
+↳ [Link to Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook)
 
 ***
 ***

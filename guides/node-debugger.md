@@ -1,8 +1,10 @@
 # Guide to debugging using the Node Inspector
 
-Adapted from [Debugging Node.js with Chrome Dev Tools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27).
+Adapted
+from [Debugging Node.js with Chrome Dev Tools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27).
 
-When you're using Node, you can debug using `console.log`, but you can't add breakpoints/use `debugger` statements unless you use the Node inspector. 
+When you're using Node, you can debug using `console.log`, but you can't add breakpoints/use `debugger` statements
+unless you use the Node inspector.
 
 ## Steps
 
