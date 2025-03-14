@@ -46,13 +46,13 @@ dynamic web applications after the course.
 
 | GO TO                                         | DATE     | THEME                        | NOTES |
 |:----------------------------------------------|----------|------------------------------|-------|
-| [WEEK 01](weeks/01_foundations.md)            | March 15 | Web foundations              | n/a   |
-| [WEEK 02](weeks/02_front-end-foundations.md)  | March 29 | Front-end Foundations        | n/a   |
-| [WEEK 03](weeks/03_front-end-applications.md) | April 5  | Front-end Applications       | n/a   |
-| [WEEK 04](weeks/04_back-end-foundations.md)   | April 12 | Back-end Foundations         | n/a   |
-| [WEEK 05](weeks/05_databases.md)              | April 19 | Data Persistence & Databases | n/a   |
-| [WEEK 06](weeks/06_synthesis.md)              | April 26 | Synthesis                    | n/a   |
-| [WEEK 07](weeks/07_final.md)                  | May 3    | Final Class                  | n/a   |
+| [WEEK 01](weeks/01_foundations.md)            | March 14 | Web foundations              | n/a   |
+| [WEEK 02](weeks/02_front-end-foundations.md)  | March 21 | Front-end Foundations        | n/a   |
+| [WEEK 03](weeks/03_front-end-applications.md) | April 4  | Front-end Applications       | n/a   |
+| [WEEK 04](weeks/04_back-end-foundations.md)   | April 11 | Back-end Foundations         | n/a   |
+| [WEEK 05](weeks/05_databases.md)              | April 18 | Data Persistence & Databases | n/a   |
+| [WEEK 06](weeks/06_synthesis.md)              | April 25 | Synthesis                    | n/a   |
+| [WEEK 07](weeks/07_final.md)                  | May 2    | Final Class                  | n/a   |
 
 ### ASSIGNMENTS
 
