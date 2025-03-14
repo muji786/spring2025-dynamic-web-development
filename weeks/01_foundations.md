@@ -3,7 +3,7 @@
 ## Slides
 
 
-↳ [Link to Week 1 Slides: Web Foundations](https://docs.google.com/presentation/d/1j-Hbyfh7A6zeu_2bYSsnPEeKE_2xKYdvJMePVLpDUiw/)
+↳ [Link to Week 1 Slides: Web Foundations](https://docs.google.com/presentation/d/1FVJpS2f-Kr1qXGnDfRCTMwUG8rJMtI3ZAyZWCCw1iEM/edit#slide=id.p/)
 
 ## About
 
