@@ -3,7 +3,7 @@
 ## Slides
 
 
-↳ [Link to Week 2 Slides: Front end Foundations](#)
+↳ [Link to Week 2 Slides: Front end Foundations](https://docs.google.com/presentation/d/1G-kQjHqV3anRzk0MNXpQTqwd4h7LtXjCfySHtPAoW8Igi)
 
 ## About
 
