@@ -169,7 +169,6 @@ exercise: [Frontend foundation Workbook](https://github.com/muji786/front-end-fo
 *** 
 
 
-<!-- 
 Bibliography
 
 References
@@ -189,5 +188,3 @@ TBD
   * Asynchronous Javascript And XML
 * Callback functions:
   * ...
-
- -->
