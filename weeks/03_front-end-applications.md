@@ -2,7 +2,7 @@
 
 ## SLIDES
 
-↳ [Link to Week 3 Slides: Front end Applications](#)
+↳ [Link to Week 3 Slides: Front end Applications](https://docs.google.com/presentation/d/15shDWywWVGY5k-3kBwwpSdGI-_CsdwTgPGnag614BQs/edit?usp=sharing)
 
 ## ABOUT
 
