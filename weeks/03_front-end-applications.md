@@ -190,15 +190,15 @@ interactive front-end web application that interacts with a 3rd party API to gen
 
 ## ADDITIONAL NOTES
 
-<!-- ### DOM Manipulation
+ ### DOM Manipulation
 
 When JavaScript was first created back in the 90's, one of the original uses was to dynamically change a page's HTML after the website had loaded. This is still the most common usage of JS in the browser.
 
-To get started, create a new `index.html`, a new empty JS file `script.js`, and have the HTML link to the script. Then start a simple static server to start building and testing. -->
+To get started, create a new `index.html`, a new empty JS file `script.js`, and have the HTML link to the script. Then start a simple static server to start building and testing.
 
 
 
-<!-- #### When is a website finished loading?
+ #### When is a website finished loading?
 Back in week 1, we talked about all of the steps that happen when you load a website in a browser. Part of that process is when the server sends back an HTML file, and the browser starts rendering the HTML. The browser interprets the HTML and builds the DOM (Document Object Model) of the website. This process isn't instantaneous—it takes some time. If we want to make changes to the DOM, we have to wait until it's finished loading. How do we know (in code) when it's done? The browser fires a `load` event, which we can listen for:
 ```js
 window.onload = function() {
@@ -208,14 +208,14 @@ window.onload = function() {
 ```
 You'll need to call any code that accesses the DOM, whether you are selecting elements, binding event handlers, or adding or removing elements, after this function had been called. It's common wrap calls to any initialization code in this function.
 
-You can read more here about the details about [Browser Page Lifecycle](/guides/browser-guide.md##the-page-lifecycle) -->
+You can read more here about the details about [Browser Page Lifecycle](/guides/browser-guide.md##the-page-lifecycle)
 
-<!-- #### Selecting DOM Elements
+ #### Selecting DOM Elements
 
-See [Selecting DOM Elements](../guides/javascript-frontend-guide.md#selecting-dom-elements) in the JS Front End Guide. -->
+See [Selecting DOM Elements](../guides/javascript-frontend-guide.md#selecting-dom-elements) in the JS Front End Guide.
 
 
-<!-- #### Creating and Appending DOM Elements
+ #### Creating and Appending DOM Elements
 See [Reference: JavaScript and the DOM](../guides/javascript-frontend-guide.md#references-javascript-and-the-dom) for an in-depth guide. 
 
 *Note*: You cannot create or append DOM elements until the website is loaded. Therefore you'll need to wrap all of the code in this section in a `window.onload` handler.
@@ -259,24 +259,24 @@ postElement.remove();
 
 const commentContainer = document.getElementById("comments");
 commentContainer.removeChild(commentContainer.lastChild);
-``` -->
+``` 
 
-<!-- #### HTML Element Reference
+ #### HTML Element Reference
 The best reference for web development tools is the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web). It's impossible to memorize all of the different attributes and methods and properties!
 
 Every single HTML element is a subclass of [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement). This means that every single element shares some of the same methods and properties, and also have their own (for example, a `<p>` tag can do different stuff from a `<canvas>` element). Also, HTMLElement is a subclass of a few different classes—[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element), [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node), and [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)—therefore, all elements also include any of the methods/properties from these classes as well.
 
-TODO: include a reference on inheritance and subclasses. -->
+TODO: include a reference on inheritance and subclasses. 
 
-<!-- ### Event Handlers
+### Event Handlers
 
 Websites and web applications are interactive. When you click on a link, it takes you to a new page, you click a button and it makes a purchase. Every HTML element has **event handlers** so that you can listen for these events, and take actions (i.e. execute code) when these events occur. 
 
-See [Event Handlers and Event Listeners](../guides/javascript-frontend-guide.md#event-handlers-and-event-listeners) for commonly used events. -->
+See [Event Handlers and Event Listeners](../guides/javascript-frontend-guide.md#event-handlers-and-event-listeners) for commonly used events. 
 
-<!-- ### Using APIs -->
+ ### Using APIs
 
-<!-- #### What is an API?
+ #### What is an API?
 In ICM, we used p5.js to get data from API's using [loadJSON()](https://p5js.org/reference/#/p5/loadJSON). Our p5.js sketch, the front end JavaScript code, was making an HTTP request, specifically an AJAX request (Asychronous JavaScript Request), and fetching JSON data. This specific type of API is called a REST (Relational State Transfer) API, which specifically defines the interface for computer systems connected to the Internet. I just named a lot of terms, so let's take a step back and talk about all of these different pieces.
 
 What is an API? API stands for "Application Programming Interface," which I don't think does a great job of actually explaining what an API is. The thing is, it's actually a pretty general term—basically, every piece of software has an interface, and therefore an API. You use the API in *code*—for example, you can open the website [Twitter](https://twitter.com) to write a tweet, or you can use the Twitter API to write a tweet from code. Why would you want to do this? For example, you could make a Twitter bot that tweets a programmatically generated [Emoji Aquarium](https://twitter.com/emojiaquarium) every three hours.
@@ -285,17 +285,17 @@ What you can do with an API depends on the underlying software. Sometimes an API
 
 In this class, we will use the term API mostly in the context of RESTful API's and Browser API's. In reality, you're using tons of APIs (VSCode API, Node API, etc.) but we may not talk about them.
 
-* **Reading: ** [Nobody Introduced Me to the API](https://www.robinwieruch.de/what-is-an-api-javascript) -->
+* **Reading: ** [Nobody Introduced Me to the API](https://www.robinwieruch.de/what-is-an-api-javascript) 
 
-<!-- #### Connecting to RESTful APIs with JavaScript: AJAX and the Fetch API
+ #### Connecting to RESTful APIs with JavaScript: AJAX and the Fetch API
 When you load a website or web application, the server is communicating with the browser using HTTP. This is called a **communication protocol**. When you want to load data from an API, you also need to make the request using HTTP. In JavaScript, this is done using AJAX (Asynchronous JavaScript and XML). 
 
 The syntax for making AJAX requests is quite verbose, and while some libraries have been created to make AJAX easier to use (jQuery, Axios), the standard now is to use the Fetch API. To use the Fetch API, you must understand Promises and async/await.
 
 * **Promises and async/await**: [Callbacks, Promises, and async/await](../guides/javascript-frontend-guide.md#callbacks-promises-and-asyncawait)
-* **In-depth guide**: [JavaScript Networking, AJAX, talking to APIs, and CORS](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors) -->
+* **In-depth guide**: [JavaScript Networking, AJAX, talking to APIs, and CORS](../guides/javascript-frontend-guide.md#javascript-networking-ajax-talking-to-apis-and-cors) 
 
-<!-- #### Public APIs and Terms
+#### Public APIs and Terms
 
 Many websites and web applications have created publicly available APIs, to let you access their data or use their services from code. There's tons to choose from!
 
@@ -313,11 +313,7 @@ There are a few terms to get comfortable with when using APIs:
 * **Base URL**: Every API has base URL that all of its endpoints are appended to. It usually looks something like `https://www.potterapi.com/v1/`
 * **Endpoint**: Also known as a path, an endpoint gives you the slice of data, or service within an API, which is appended to the base url. This also includes the HTTP verb (GET, POST, etc.) ([What is an HTTP verb?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)) This could be something like GET `/characters`, where the full URL would be GET `https://www.potterapi.com/v1/characters`. 
 * **URL Query Parameters**: Often endpoints allow you filter and search the data at an endpoint using query string parameters. For example, `https://www.potterapi.com/v1/characters?house=Gryffindor`. `house` is the name of the parameter, and `Gryffindor` is the value. In the documentation, it's usually specified what these parameters can be, just be sure to [URL encode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI) them.
-* **Response format**: Usually the response is JSON, very rarely it will not be. -->
-
-
-
-
+* **Response format**: Usually the response is JSON, very rarely it will not be. 
 
 
 ***
