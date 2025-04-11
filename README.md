@@ -58,12 +58,18 @@ dynamic web applications after the course.
 
 | ASSIGNMENT                                                      | DUE DATE | TITLE                                                                          | NOTES |
 |:----------------------------------------------------------------|----------|--------------------------------------------------------------------------------|-------|
-| [A1](assignments/01_assignment.md)                              | March 29 | Internet Art: Materiality of the web                                           | n/a   |
-| [A2](assignments/02_assignment.md)                              | April 5  | Making & Breaking the Grid: Swiss Poster Website                               | n/a   |
-| [A3](assignments/03_assignment.md)                              | April 12 | Dynamic Front-end Applications: Advanced Client-side JavaScript and Networking | n/a   |
-| [A4](assignments/04_assignment.md)                              | April 19 | API Love You: Oh CRUD.                                                         | n/a   |
-| [A5](assignments/05_assignment.md)                              | April 26 | The API of You: Living forever on the web                                      | n/a   |
-| [FINAL PROJECT & PRESENTATION](assignments/06_final-project.md) | May 3    | Final Project                                                                  | n/a   |
+| [A1](assignments/01_assignment.md)                              | March 21 | Internet Art: Materiality of the web                                           | n/a   |
+| [A2](assignments/02_assignment.md)                              | April 4  | Making & Breaking the Grid: Swiss Poster Website                               | n/a   |
+| [A3](assignments/03_assignment.md)                              | April 11 | Dynamic Front-end Applications: Advanced Client-side JavaScript and Networking | n/a   |
+| [A4](assignments/04_assignment.md)                              | April 18 | API Love You: Oh CRUD.                                                         | n/a   |
+| [A5](assignments/05_assignment.md)                              | April 25 | The API of You: Living forever on the web                                      | n/a   |
+| [FINAL PROJECT & PRESENTATION](assignments/06_final-project.md) | May 2    | Final Project                                                                  | n/a   |
+
+## Submission
+
+### Details:
+
+Due Date: Your assignment must be turned in BEFORE midnight on the day before class. Share your github link on the discord channel
 
 Here is a basic breakdown of graded tasks along that trajectory:
 
