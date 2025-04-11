@@ -944,7 +944,7 @@ an organizational starting point, but does not need to be the *only* type of end
 ## Introduction to CRUD with persistence: Pizza Topping API
 
 We are now going to build a pizza topping API. This is also covered as part of
-the [back end foundations workbook](https://github.com/muji786/spring2022-dynamic-web-development/back-end-foundations-workbook).
+the [back end foundations workbook](https://github.com/muji786/spring2025-dynamic-web-development/back-end-foundations-workbook).
 
 ### SETUP
 

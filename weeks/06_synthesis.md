@@ -11,7 +11,7 @@ This week, we will be putting all of the pieces together:
 
 ## Guides
 
-* [Databases Workbook](https://github.com/muji786/spring2024-dynamic-web-development/databases-workbook)
+* [Databases Workbook](https://github.com/muji786/spring2025-dynamic-web-development/databases-workbook)
 * [MongoDB Atlas Guide](../guides/database-services-guide.md)
 * [Databases Guide](../guides/databases-guide.md)
 * [MongoDB Guide](../guides/mongodb-guide.md)

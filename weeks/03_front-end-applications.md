@@ -169,12 +169,12 @@ Topics we are not covering, but are of importance:
 ## STUDIO: FRONT-END APPLICATIONS WORKBOOK
 
 Learn by doing with
-the [Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook).
+the [Front-End Applications Workbook](https://github.com/muji786/spring2025-dynamic-web-development/front-end-applications-workbook).
 Here you will encounter a set of guided challenges that will introduce you to a specific process of building an
 interactive front-end web application that interacts with a 3rd party API to generate a dynamic clientside views.
 
 *
-↳ [Link to Front-End Applications Workbook](https://github.com/muji786/spring2024-dynamic-web-development/front-end-applications-workbook)
+↳ [Link to Front-End Applications Workbook](https://github.com/muji786/spring2025-dynamic-web-development/front-end-applications-workbook)
 
 ***
 ***
