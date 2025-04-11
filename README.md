@@ -10,7 +10,7 @@ Email Address: ahmad.arshad@nyu.edu
 
 Live Sessions: Fri 9:30AM - 12:00PM EST
 
-Dates : 03/14/2025 - 05/02/2024
+Dates : 03/14/2025 - 05/02/2025
 
 Location : 370 Jay St, Room 408 Loc: Brooklyn Campus
 
