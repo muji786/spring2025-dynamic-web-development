@@ -4,7 +4,7 @@
 
 ## SLIDES
 
-↳ [Link to Week 4 Slides: Back end Foundations](#)
+↳ [Link to Week 4 Slides: Back end Foundations](https://docs.google.com/presentation/d/1Cox7B3VZ21NjPY-p6Yg_OmyPEMse5gUJgphA6wQm5IM/edit?usp=sharing)
 
 ## ABOUT
 
