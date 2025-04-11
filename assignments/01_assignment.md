@@ -121,14 +121,6 @@ Some examples of nice readme:
 * Your application must be publicly accessible on [Glitch.com](https://glitch.com). For more information on deploying to
   glitch via a remote Github repo, see: [Glitch Guide](../guides/glitch.md).
 
-## Submission
-
-### Details:
-
-Due Date: week 2
-
-Your assignment must be turned in BEFORE midnight on the day before class.
-
 ## Helpful Tips & References:
 
 * [Your First Website Guide](../guides/your-first-website-guide.md)
