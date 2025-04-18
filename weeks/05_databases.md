@@ -2,7 +2,7 @@
 
 ## SLIDES
 
-↳ [Link to Week 5 Slides: Databases](#)
+↳ [Link to Week 5 Slides: Databases]([#](https://docs.google.com/presentation/d/1xd4fxwkzcTUHIgraSmVJzOaDO7gVEXEbJA-FZ1lVueA/edit?usp=sharing))
 
 ## ABOUT
 
